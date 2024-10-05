@@ -522,6 +522,10 @@ width: 100%;
     width: 264px;
 }
 
+.social-menu{
+    margin-right: 80px;
+}
+
 .footer-menu-social {
     display: flex;
     gap: 16px;
@@ -554,6 +558,68 @@ width: 100%;
 
 .footer-menu-social-item-icon{
     fill: #f4f4fd;
+}
+
+.footer-subscribe-label {
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.footer-subscribe-input-area {
+    margin-right: 24px;
+}
+
+.footer-subscribe-input {
+    width: 264px;
+    height: 40px;
+    background: #2e2f42;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.footer-subscribe-input:focus {
+    outline: transparent;
+}
+
+.footer-btn-wrapper {
+    position: relative;
+}
+
+.footer-subscribe-btn {
+    position: absolute;
+    transform: translateY(55%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 24px;
+    border-radius: 4px;
+    width: 165px;
+    height: 40px;
+    background: #4d5ae5;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-btn-icon {
+    margin-left: 16px;
+    fill: #FFFFFF;
 }
 
 /*======= /FOOTER STYLES =======*/
@@ -626,6 +692,11 @@ width: 100%;
     stroke: #FFFFFF;
     fill:  #FFFFFF;
     border: none;
+}
+
+.modal-close-btn:hover.modal-close-icon,
+.modal-close-btn:focus.modal-close-icon {
+    fill:  #FFFFFF;
 }
 
 .modal-text {
