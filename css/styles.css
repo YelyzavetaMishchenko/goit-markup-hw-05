@@ -571,11 +571,9 @@ width: 100%;
 
 .footer-form-wrapper {
     display: flex;
-}
-
-.footer-form-label {
     gap: 24px;
 }
+
 
 .footer-form-input {
     width: 264px;
@@ -591,8 +589,32 @@ width: 100%;
     color: #ffffff;
 }
 
-..footer-form-input::placeholder {
+.footer-form-input::placeholder {
     color: #ffffff;
+}
+
+.footer-form-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 165px;
+    height: 40px;
+    border-radius: 4px;
+    padding: 8px 24px;
+    cursor: pointer;
+    background-color: #4d5ae5;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #ffffff;
+}
+
+.footer-form-btn-icon {
+    margin-left: 16px;
+    fill: #FFFFFF;
 }
 
 /*======= /FOOTER STYLES =======*/
